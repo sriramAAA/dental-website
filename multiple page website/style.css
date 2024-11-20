@@ -1,0 +1,1656 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+
+
+
+/* navbar */
+
+
+.navbar{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(67, 75, 100);
+}
+
+@media screen and (max-width:500px) {
+.navbar{
+    width: 450px;
+    height: 150px;
+    background-color:rgb(67, 75, 100);
+}
+
+}
+
+.navbar-logo{
+    display: inline;
+    width: 400px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+    
+ @media  screen and (max-width:500px){        
+.navbar-logo{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-ul{
+   display: flex; 
+   gap: 50px;
+   font-size: 40px;
+   justify-content: center;
+   margin-top: -50px;
+}
+
+@media  screen and  (max-width:500px){
+.nav-ul{
+   display: flex; 
+   gap: 30px;
+   font-size: 20px;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+}
+.nav-li{
+    list-style: none;
+    color: white;
+}
+
+.tel-box{
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(155, 155, 165);
+    margin-left: 1100px;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+
+
+
+
+@media  screen and  (max-width:500px) {
+   
+.tel-box{
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(155, 155, 165);
+    margin-left: 200px;
+    margin-top: -100px;
+    border-radius: 5px;
+}
+
+}
+
+.tel-a{
+    position:absolute;
+    font-size: 22px;
+    color: white;
+   margin-top: 15px;
+   margin-left:20px;
+}
+
+@media  screen and  (max-width:500px) {
+
+    
+.tel-a{
+     width: 190px;
+    height: 45px;
+    position:absolute;
+    font-size: 20px;
+    color: white;
+   margin-top: 15px;
+   margin-left:20px;
+}
+
+}
+
+
+
+
+
+/* hero page */
+.hero-page-bg{
+   
+    width: 100%;
+    height: 600px;
+    background-color: #5a87bd;
+}
+
+@media  screen and (max-width:500px) {
+
+    .hero-page-bg{
+   
+    width: 450px;
+    height: 750px;
+    background-color: #5a87bd;
+}
+}
+
+.hero-page-contant{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+  
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+@media  screen and  (max-width:500px) {
+
+
+.hero-page-contant{
+    position: absolute;
+    width: 500px;
+    height: 730px;
+   
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+}
+
+
+
+
+.hero-page-contant-one{
+    font-size: 42px;
+    color: white;
+
+}
+
+
+@media  screen and (max-width:500px) {
+    
+.hero-page-contant-one{
+    width:400px ;
+    height: 10px;
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+}
+
+.hero-page-contant-para{
+    margin-top: 50px;
+    font-size: 23px;
+     font-family: "Inter", sans-serif;
+     color: wheat;
+     
+}
+
+
+@media  screen and  (max-width:500px) {
+    
+
+    .hero-page-contant-para{
+        width:420px ;
+        height: 13px;
+        margin-top: 90px;
+        font-size: 18px;
+         font-family: "Inter", sans-serif;
+         color: wheat;
+         
+    }
+
+}
+
+
+.Appointment-box{ 
+     position: absolute;
+   
+    width: 252px;
+    height: 49px;
+    text-decoration: none;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+@media   screen and (max-width:500px){
+    
+
+
+    .Appointment-box{ 
+        position: absolute;
+      
+       width: 212px;
+       height: 49px;
+       text-decoration: none;
+       background-color: white;
+       margin-top: 140px;
+       margin-left: 100px;
+       border-radius: 10px;
+   }
+
+}
+
+   
+.Appointment-box-contant{
+     position: absolute;
+    font-size: 20px;
+    color: #0557BC;
+   font-family: "Inter", sans-serif;
+   padding: 10px;
+   margin-left: 15px;
+
+    
+}
+@media  screen and  (max-width:500px) {
+  
+    
+.Appointment-box-contant{
+    position: absolute;
+   font-size: 15px;
+   color: #0557BC;
+  font-family: "Inter", sans-serif;
+  padding: 10px;
+  margin-left: 15px;
+
+   
+}
+    
+}
+
+
+/* hero-page-imge */
+
+
+.hero-page-imge{
+   position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+@media  screen and  (max-width:500px) {
+    
+    .hero-page-imge{
+        position: absolute;
+         width: 500px;
+         height: 300px;
+         margin-top: 340px;
+         margin-left: 25px;
+         
+     }
+}
+
+
+.hero-page-dental-img{
+    width: 600px;
+    height: 560px;
+  border-radius: 15px;
+   
+    
+}
+@media  screen and (max-width:500px) {
+    
+    
+.hero-page-dental-img{
+    width: 400px;
+    height: 400px;
+  border-radius: 15px;
+   
+    
+}
+}
+
+/* ---------------------index- about-page------------------- --> */
+
+
+@media   screen and (max-width:500px) {
+    
+.index-about-page{
+    width: 500px;
+    height: auto;
+}
+    
+}
+
+    
+
+
+
+.index-about-page-title{
+   
+    width: 520px;
+    height: 24px;
+    color:  #5c9be9;
+    font-size:25px ;
+     font-family: "Inter", sans-serif;
+     font-weight: 600;
+     margin-top: 50px;
+     margin-left:700px ;
+     
+}
+
+@media  screen and  (max-width:500px) {
+    
+
+    .index-about-page-title{
+   
+        width: 220px;
+        height: 24px;
+        color:  #5c9be9;
+        font-size:25px ;
+         font-family: "Inter", sans-serif;
+         font-weight: 600;
+         margin-top: 50px;
+         margin-left:150px ;
+         
+    }
+
+}
+
+
+.index-about-page-heading{
+    width: 520px;
+    height: 104px;
+    font-size: 42px;
+    color: #0b1341;
+    font-family:"Inter", sans-serif ;
+    margin-left: 800px;
+    margin-top: 110px;
+}
+
+@media  screen and  (max-width:500px) {
+
+    
+
+.index-about-page-heading{
+    width: 420px;
+    height: 104px;
+    font-size: 30px;
+    color: #0b1341;
+    font-family:"Inter", sans-serif ;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+    
+}
+
+
+
+.index-about-page-para{
+    width: 500px;
+    height: 105px;
+    color: #0b1341;
+    font-size: 20px;
+    font-family:"Inter", sans-serif ;
+    margin-left: 800px;
+    margin-top: 30px;
+
+}
+
+@media  screen and (max-width:500px) {
+    
+.index-about-page-para{
+    width: 420px;
+    height: 105px;
+    color: #0b1341;
+    font-size: 13px;
+    font-family:"Inter", sans-serif ;
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
+    
+}
+.index-about-page-btn{
+    width: 180px;
+    height: 50px;
+ border-radius: 5px;
+  background-color: #0557BC;
+  margin-top: 70px;
+  margin-left: 900px;
+}
+
+@media  screen and  (max-width:500px){
+
+    .index-about-page-btn{
+        position: absolute;
+        width: 180px;
+        height: 50px;
+     border-radius: 5px;
+      background-color: #0557BC;
+      margin-top: -20px;
+      margin-left: 120px;
+    }
+
+}
+
+.index-about-page-btn-contant{
+font-size: 20px;
+color: white;
+text-decoration: none;
+font-family:"Inter", sans-serif ;
+
+
+}
+
+.index-about-page-img{
+    position: absolute;
+    width: 600px;
+    height: 540px;
+    margin-top: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+ } 
+
+ @media   screen and  (max-width:500px) {
+
+.index-about-page-img{
+    position: absolute;
+    width: 400px;
+    height: 340px;
+    margin-top: 310px;
+    margin-left: 15px;
+    border-radius: 20px;
+   
+ } 
+    
+ }
+ /* ------------------- index-services-page------------------- */
+
+ .index-services-page{
+    position: absolute;
+    width: 100%;
+    height: 1170px;
+    background-color:#f1f3f4 ;
+    margin-top: 350px;
+
+ }
+ @media  screen and  (max-width:500px) {  
+
+    .index-services-page{
+        position: absolute;
+        width: 100%;
+        height: 2170px;
+        background-color:#f1f3f4 ;
+        margin-top: 350px;
+    
+     }
+
+ }
+ 
+
+
+
+ .index-services-page-title{
+    width: 300px;
+    height: 24px;
+    color: #0557bc;
+    font-size: 25px;
+    font-family:"Inter", sans-serif ;
+    margin-top: 100px;
+    margin-left: 750px;
+ }
+
+
+ @media  screen and  (max-width:500px) { 
+ .index-services-page-title{
+    width: 300px;
+    height: 24px;
+    color: #0557bc;
+    font-size: 20px;
+    font-family:"Inter", sans-serif ;
+    margin-top: 50px;
+    margin-left: 150px;
+    
+ }
+
+ }
+
+ 
+.index-services-page-heading{
+    width: 600px;
+   
+    height: 52px;
+    overflow: hidden;
+    color: #0b1341;
+    font-size: 40px;
+    font-family:"Inter", sans-serif ;
+    margin-top: 40px;
+    margin-left: 550px;
+
+
+}
+
+@media  screen and  (max-width:500px) {
+
+    
+.index-services-page-heading{
+    width: 500px;
+   
+    height: 52px;
+    
+    color: #0b1341;
+    font-size: 24px;
+    font-family:"Inter", sans-serif ;
+    margin-top: 40px;
+    margin-left: 12px;
+
+
+}
+}
+ 
+
+/* --- index- services-page- card section   */
+
+.index-services-page-card-container{
+    width: 100%;
+    height: 455px;
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+    /* background-color: rgb(211, 78, 78); */
+}
+
+
+@media  screen and  (max-width:500px) {
+
+    
+.index-services-page-card-container{
+    width: 500px;
+    height: 455px;
+    margin-top: 50px;
+   justify-content: space-around;
+    
+}
+    
+}
+
+
+/* -------------card-one--------------- */
+.card-one{
+    width: 380px;
+    height: 435px;
+    background-color: white;
+    border-radius: 5px;
+}
+@media   screen and (max-width:500px) {
+    
+    .card-one{
+        position: absolute;
+        width: 380px;
+        height: 435px;
+        background-color: white;
+        border-radius: 5px;
+        margin-left: -70px;
+       
+    }
+
+}
+
+.card-one-img{
+    width: 320px;
+    height: 240px;
+  padding: 30px;
+ 
+}
+
+.card-one-heading{
+    width: 320px;
+    height: 26px;
+    color: #0b1341;
+    font-size: 22px;
+     font-family:"Inter", sans-serif ;
+    margin-left: 90px;
+}
+
+.card-one-para{
+    width: 320px;
+    height: 79px;
+    color: #0b1341;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+   margin-left: 50px;
+}
+/* -------------card-two--------------- */
+
+.card-two{
+    width: 380px;
+    height: 435px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+@media  screen and  (max-width:500px) {
+ 
+    
+.card-two{
+    position: absolute;
+    width: 380px;
+    height: 435px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 460px;
+    margin-left: -70px;
+}
+
+
+}
+
+.card-two-img{
+    width: 320px;
+    height: 240px;
+  padding: 30px;
+ 
+}
+
+.card-two-heading{
+    width: 320px;
+    height: 26px;
+    color: #0b1341;
+    font-size: 22px;
+     font-family:"Inter", sans-serif ;
+    text-align: center;
+}
+
+.card-two-para{
+    width: 320px;
+    height: 79px;
+    color: #0b1341;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+   margin-left: 50px;
+}
+
+/* -------------card-three--------------- */
+.card-three{
+    width: 380px;
+    height: 435px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+@media  screen and  (max-width:500px) {
+ 
+    
+    .card-three{
+        position: absolute;
+        width: 380px;
+        height: 435px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 930px;
+        margin-left: -70px;
+    }}
+
+
+.card-three-img{
+    width: 320px;
+    height: 240px;
+  padding: 30px;
+ 
+}
+
+.card-three-heading{
+    width: 320px;
+    height: 26px;
+    color: #0b1341;
+    font-size: 22px;
+     font-family:"Inter", sans-serif ;
+    text-align: center;
+}
+
+.card-three-para{
+    width: 320px;
+    height: 79px;
+    color: #0b1341;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+   margin-left: 50px;
+}
+/* -------------- services-btn----------------*/
+ 
+.services-btn{
+   
+   position: absolute;
+  
+   width: 212px;
+   height: 49px;
+   text-decoration: none;
+   background-color: #0557BC;
+   margin-top: 50px;
+   margin-left: 550px;
+   border-radius: 5px;
+
+  
+}
+
+
+
+
+@media  screen and (max-width:500px) {
+.services-btn{
+   
+        position: absolute;
+       
+        width: 212px;
+        height: 49px;
+        text-decoration: none;
+        background-color: #0557BC;
+        margin-top: 950px;
+        margin-left: 100px;
+        border-radius: 5px;
+     
+       
+     }
+
+
+}
+.services-btn-contant{
+   
+  position: absolute;
+   font-size: 18px;
+   color:white;
+  font-family: "Inter", sans-serif;
+  margin-top: 13px;
+  margin-left:25px ;
+   
+
+}
+
+/*---- Appointment-para-img-bg------ */
+
+.Appointment-para-img-bg{
+    
+   justify-content: center;
+   margin-left: 20px;
+}
+
+
+@media  screen and  (max-width:500px) {
+.Appointment-para-img-bg{
+ justify-content: center;
+ margin-left: 5px;
+ margin-top: 1100px;
+ }   
+}
+
+
+.Appointment-contant{ 
+    width: 600px;
+    height: 500px;
+     background-color: #0557BC;
+    margin-top: 150px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+
+@media   screen and (max-width:500px) {   
+.Appointment-contant{
+    
+    width: 430px;
+    height: 500px;
+     background-color: #0557BC;
+    margin-top: 150px;
+    margin-left: -5px;
+    border-radius: 10px;
+}
+
+}
+
+.Appointment-contant-para{
+    width: 482px;
+    height: 156px;
+    font-size: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+@media   screen and (max-width:500px) {
+    
+.Appointment-contant-para{
+    position: absolute;
+    width: 482px;
+    height: 156px;
+    font-size: 28px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+    
+}
+
+.Appointment-contant-para-two{
+    width: 402px;
+    height: 52px;
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+}
+
+@media  screen and  (max-width:500px) {
+    
+    
+.Appointment-contant-para-two{
+    position: absolute;
+    width: 402px;
+    height: 52px;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+    margin-top: 190px;
+}
+}
+
+.Appointment-contant-para-three{
+    width: 402px;
+    height: 52px;
+    font-size: 20px;
+    color: white;
+    margin-left:70px;
+    font-family: "Inter", sans-serif;
+    margin-top: 80px;
+    line-height: 30px;
+justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+    
+.Appointment-contant-para-three{
+    position: absolute;
+    width: 402px;
+    height: 52px;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+    font-family: "Inter", sans-serif;
+    margin-top: 350px;
+    line-height: 30px;
+justify-content: center;
+}
+
+
+}
+
+
+.Appointment-img-border{
+  
+    
+    width: 500px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 600px;
+    
+
+   
+
+}
+
+.Appointment-img{
+    position: absolute;
+   width: 605px;
+   height: 500px;
+    margin-top: -650px;
+    margin-left: 70px;
+    border-radius: 10px;
+    
+}
+
+
+@media   screen and (max-width:500px) {
+.Appointment-img{
+    position: absolute;
+   width: 400px;
+   height: 400px;
+    margin-top: -100px;
+    margin-left: -590px;
+    border-radius: 10px;
+    
+}
+    
+}
+
+
+
+.reserve-slot-btn{
+position: absolute;
+    width: 212px;
+    height: 49px;
+    text-decoration: none;
+    background-color:#0557BC;
+    color:white;
+    margin-top: -690px;
+    margin-left: 540px;
+    border-radius: 5px;
+   
+ }
+
+
+ @media  screen and (max-width:500px) {  
+.reserve-slot-btn{
+   
+    position: absolute;
+   
+    width: 212px;
+    height: 49px;
+    text-decoration: none;
+    background-color:#0557BC;
+    color:white;
+    margin-top: -190px;
+    margin-left: 100px;
+    border-radius: 5px;
+   
+ }
+
+ }
+ .reserve-btn-contant{
+    
+   position: absolute;
+    font-size: 18px;
+    color:white;
+   font-family: "Inter", sans-serif;
+   margin-top: 13px;
+   margin-left:25px ;
+    
+ 
+ } 
+
+ /* ---- Why Choose Us-  section--- */
+
+
+.Why-Choose-Us-title{
+    
+    display:inline-block ;
+    width: 500px;
+    height: 25px;
+    color: #0557bc;
+    font-size: 25px;
+    margin-top: 1900px;
+    margin-left: 550px;
+    font-family: "Inter", sans-serif;
+
+}
+
+
+@media screen and (max-width:500px) {
+.Why-Choose-Us-title{  
+    width: 500px;
+    height: 25px;
+    color: #0557bc;
+    font-size: 20px;
+    margin-top: 3300px;
+    margin-left: 120px;
+    font-family: "Inter", sans-serif;
+
+}
+    
+}
+
+
+.Why-Choose-Us-heading{
+    width:865px;
+    height: 52px;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+    font-weight: 600;
+    margin-left: 300px;
+}
+
+
+@media screen and (max-width:500px) {
+.Why-Choose-Us-heading{
+    width:500px;
+    height: 52px;
+    font-size: 26px;
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+    
+}
+
+
+
+.Why-Choose-Us-img-border{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    background-color: #F2F6FB;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+
+
+@media  screen and (max-width:500px) {
+.Why-Choose-Us-img-border{
+    width: 165px;
+    height: 200px;
+    position: absolute;
+    background-color: #F2F6FB;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}    
+}
+
+.Why-Choose-Us-img{
+    position: absolute;
+    width: 562px;
+    height: 500px;
+    margin-left: 0px;
+    border-radius: 20px;
+    
+}
+
+@media  screen and (max-width:500px) {
+    
+
+.Why-Choose-Us-img{
+    position: absolute;
+    width: 162px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+}
+.Why-Choose-Us-dr{
+    position: absolute;
+    width: 462px;
+    height: 36px;
+    color: #0557bc;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+@media  screen and  (max-width:500px) {
+    
+
+.Why-Choose-Us-dr{
+    position: absolute;
+    width: 462px;
+    height: 36px;
+    color: #0557bc;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-top:9px;
+    margin-left: 170px;
+}
+
+}
+
+
+.Why-Choose-Us-dr-para{
+    position: absolute;
+    width: 402px;
+    height: 79px;
+    font-size: 18px;
+    margin-left: 700px;
+    margin-top: 110PX;
+    font-family: "Inter", sans-serif;
+
+}
+
+@media  screen and   (max-width:500px) {
+
+    
+.Why-Choose-Us-dr-para{
+    position: absolute;
+    width: 230px;
+    height: 79px;
+    font-size: 15px;
+    margin-left: 180px;
+    margin-top: 30PX;
+    font-family: "Inter", sans-serif;
+
+}
+    
+}
+
+.dr-li-1{
+     width:383px ;
+     height:26px ;
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+     margin-left: 700px;
+     margin-top: 200px;
+     color: #5a87bd;
+
+}
+
+@media   screen and (max-width:500px) {
+
+    
+.dr-li-1{
+     width:383px ;
+     height:26px ;
+     font-size: 18px;
+     font-family: "Inter", sans-serif;
+     margin-left: 180px;
+     margin-top: 130px;
+     color: #5a87bd;
+
+}
+
+}
+.dr-li-2{
+    width:383px ;
+    height:26px ;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: #495c74;
+
+}
+
+
+@media  screen and (max-width:500px) {
+
+    
+.dr-li-2{
+     width:383px ;
+     height:26px ;
+     font-family: "Inter", sans-serif;
+     font-size: 18px;
+     margin-left: 180px;
+     margin-top: 5px;
+     color: #5a87bd;
+
+}}
+
+
+.dr-li-3{
+    width:383px ;
+    height:26px ;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: #87b1e5;
+}
+
+
+@media  screen and (max-width:500px) {
+
+    
+.dr-li-3{
+     width:383px ;
+     height:26px ;
+     font-size: 18px;
+     font-family: "Inter", sans-serif;
+     margin-left: 175px;
+     margin-top: 5px;
+     color: #5a87bd;
+
+}}
+
+.dr-btn{
+ position: absolute;
+   
+    width: 232px;
+    height: 49px;
+    text-decoration: none;
+    background-color:#0557BC;
+    color:white;
+    margin-top: 50px;
+    margin-left: 710px;
+    border-radius: 5px;
+   
+}
+
+
+@media  screen and   (max-width:500px) {
+    
+.dr-btn{
+ position: absolute;
+   
+    width: 180px;
+    height: 49px;
+    text-decoration: none;
+    background-color:#0557BC;
+    color:white;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+   
+}
+    
+}
+
+.dr-btn-contant{
+
+   position: absolute;
+    font-size: 18px;
+    color:white;
+   font-family: "Inter", sans-serif;
+   margin-top: 13px;
+   margin-left:25px ;
+}
+
+@media  screen and (max-width:500px) {
+    
+.dr-btn-contant{
+
+   position: absolute;
+    font-size: 15px;
+    color:white;
+   font-family: "Inter", sans-serif;
+   margin-top: 13px;
+   margin-left:25px ;
+}
+    
+}
+
+
+
+
+
+/*------------------- footer---------------------- */
+
+.footer-section{
+    position: absolute;
+    width: 100%;
+    height:600px ;
+    margin-top: 550px;
+}
+
+.footer-dendall-darkimg{
+    position: relative;
+    width: 360px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+@media  screen and  (max-width:500px) {
+.footer-dendall-darkimg{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    margin-top: 550px;
+    margin-left: 10px;
+}
+
+    
+}
+.footer-dental-para{
+    width: 450px;
+    height: 26px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+@media  screen and  (max-width:500px) {
+.footer-dental-para{
+    position: absolute;
+    width: 410px;
+    height: 26px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-top:640px;
+    margin-left: 10px;
+}
+}
+ 
+/*------- footer-social-media--------- */
+.footer-social-media{
+    width: 250px;
+  
+    
+    margin-top: 150px;
+    margin-left: 70px;
+    position: absolute;
+}
+@media  screen and  (max-width:500px) {
+    
+.footer-social-media{
+    width: 450px;
+    margin-top: 770px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+}
+.fb-icon{
+ width: 40px;
+ height: 50px;
+ margin-left: 20px;
+}
+
+@media  screen and (max-width:500px) {
+.fb-icon{
+ width: 40px;
+ height: 50px;
+ margin-left: 20px;
+}
+    
+}
+
+.google-icon{
+    width: 40px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+@media  screen and (max-width:500px) {
+    
+    
+.google-icon{
+ width: 40px;
+ height: 50px;
+ margin-left: 90px;
+}
+    
+}
+
+
+.insta-icon{
+    width: 40px;
+    height: 50px;
+    margin-left: 40px;
+    
+}
+
+@media  screen and  (max-width:500px) {
+    
+.insta-icon{
+ width: 40px;
+ height: 50px;
+ margin-left: 130px;
+}
+
+    
+}
+/* list-one alinments  part */
+
+.footer-li-1{
+    width: 150px;
+    height: auto;
+    margin-left: 550px;
+    margin-top: -90px;
+   
+    
+}
+@media  screen and  (max-width:500px) {
+
+    
+.footer-li-1{
+    width: 150px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: -150px;
+  
+    
+}
+    
+}
+
+@media screen and  (max-width:500px) {
+    .list-one{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+.Quick-Links-list{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+
+
+
+ .Quick-Links-list:hover{
+ color: #0557bc;
+ }
+
+ .list-one-ul{
+    list-style-type: none;
+ }
+
+
+
+ /* list-two alinments  part */
+
+
+ 
+@media  screen and (max-width:500px) {
+    .list-two{
+        font-size: 22px;
+    }
+}
+
+.footer-li-2{
+    width: 200px;
+    height: auto;
+    margin-left: 780px;
+    margin-top:-340px;
+    
+}
+
+
+@media  screen and (max-width:500px) {
+
+    
+.footer-li-2{
+    width: 250px;
+    height: 150px;
+    margin-left: 240px;
+    margin-top: -100px;
+    
+}
+    
+}
+
+
+
+.Quick-Links-list{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+
+@media  screen and  (max-width:500px) {
+    
+    
+.Quick-Links-list{
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+}
+
+ .Quick-Links-list:hover{
+ color: #0557bc;
+ }
+
+ .list-two-ul{
+    list-style-type: none;
+ }
+
+  /* ---list-three alinments  part--- */
+
+  
+.footer-li-3{
+    width: 280px;
+    height: auto;
+    margin-left: 1050px;
+    margin-top:-340px;
+   
+}
+
+@media  screen and (max-width:500px) {   
+.footer-li-3{
+    width: 290px;
+    height: auto;
+    margin-left: 120px;
+    margin-top:200px;  
+}
+
+}
+
+
+@media screen and  (max-width:500px) {
+    .list-three{
+        font-size: 20px;
+    }
+        
+    
+
+
+    
+}
+
+
+.Quick-Links-list{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+
+@media screen and  (max-width:500px){
+    .Quick-Links-list{
+    text-decoration: none;
+    font-size: 11 px;
+    font-family: "Inter", sans-serif;
+    color: black;
+} 
+    
+}
+ .Quick-Links-list:hover{
+ color: #0557bc;
+ }
+
+ .list-three-ul{
+    list-style-type: none;
+ }
+
+
+ /*-----------  index-end -----------------*/
+ .index-hr{
+    margin-top: 1100px;
+    margin-bottom: 20px;
+ }
+
+ 
+ @media screen and  (max-width:500px) {
+    
+.index-hr{
+    
+    margin-top: 1450px;
+ }
+
+ }
+
+ .index-copyright{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+
+ }
+ @media screen and  (max-width:500px) {
+    
+ .index-copyright{
+    font-size: 20px;
+    width: 450px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+ }
+
+ }
+
+
+
+
+
+/* whatsapp-fab */
+
+
+.whatsapp-fab{
+    position:absolute;
+    position:sticky;
+    top: 500px;
+    width: 50px;
+    height: 50px;
+    margin-left: 95%;
+   
+}
+
+
+@media  screen and  (max-width:500px) {
+
+    
+.whatsapp-fab{
+    position:absolute;
+  
+    width: 50px;
+    height: 50px;
+    margin-left: 85%;
+    margin-top: 3600px;
+}
+    
+}
+
+
+ /*---^^^^^^^^^---------index-page -complete---------------- */
+
+
+
+
+
+
